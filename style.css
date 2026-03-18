@@ -81,11 +81,19 @@ body{
     border: 1px solid;
 }
 
+.tjenesteCont{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    position: absolute;
+}
+
 .tjenesteListe{
     display: flex;
     list-style: none;   
+    flex-direction: column;
     justify-content: center;
-    gap: 10em;
+    gap: 20em;
     height: 5em;
     flex-wrap: wrap;
 }
@@ -96,6 +104,9 @@ body{
     height: 10em;
     border: 1px solid;
     gap: 15em;
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+
 }
 #mosaikk{
     background-image: url(./images/mosaik.avif);
@@ -114,4 +125,11 @@ body{
     height: 10em;
     background-size: cover;
     align-content: flex-end;
+}
+
+.tilbakeMeldCont{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
 }
