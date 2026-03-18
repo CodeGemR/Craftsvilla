@@ -83,8 +83,7 @@ body{
 
 .tjenesteListe{
     display: flex;
-    list-style: none;
-    flex-direction: row;
+    list-style: none;   
     justify-content: center;
     gap: 10em;
     height: 5em;
@@ -96,21 +95,23 @@ body{
     flex-direction: row;
     height: 10em;
     border: 1px solid;
-    justify-content: center;
     gap: 15em;
 }
 #mosaikk{
     background-image: url(./images/mosaik.avif);
     height: 10em;
     background-size: cover;
+    align-content: flex-end;
 }
 #akvarell{
     background-image: url(./images/akvarell.avif);
     height: 10em;
     background-size: cover;
+    align-content: flex-end;
 }
 #Lerret{
     background-image: url(./images/lerret.avif);
     height: 10em;
     background-size: cover;
+    align-content: flex-end;
 }
