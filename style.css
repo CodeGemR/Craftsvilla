@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caveat-Caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    font-family:"caveat";
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    padding: 0.5em;
+}
+
+.navbuttons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1em;
+    gap: 1em;
+    border: 1px solid;
+    border-radius: 3em;
+}
+
+.bannerContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-image: url(./images/artworkshop.jpg);
+    height: 25em;
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+    flex-direction: column;
+}
+
+.verkstedButton{
+    border: 2px solid;
+    padding: 0.2em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+.aboutWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs{
+    width: 25em;
+}
+
+.aboutWrap img{
+    display: flex;
+    width: 20em;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.tjenesteWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid;
+}
+
+.tjenesteListe{
+    list-style: none;
+}
