@@ -57,6 +57,7 @@ body{
     padding: 0.2em;
     border-radius: 1em;
     text-decoration: none;
+    color: #fff;
 }
 .aboutWrap{
     display: flex;
@@ -86,6 +87,7 @@ body{
     flex-direction: column;
     border: 1px solid;
     position: absolute;
+    width: 100%;
 }
 
 .tjenesteListe{
@@ -103,7 +105,7 @@ body{
     flex-direction: row;
     height: 10em;
     border: 1px solid;
-    gap: 15em;
+    justify-content: space-between;
     color: #fff;
     text-shadow: 2px 2px 4px black;
 
@@ -132,4 +134,74 @@ body{
     flex-direction: column;
     border: 1px solid;
     align-items: center;
+}
+
+#workshopLogo{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.bookCont{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+    height: 20em;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.book1{
+    border: 1px solid;
+    border-radius: 10px 0em 0em 10px;
+    width: 10em;
+    height: 14em;
+}
+.book1 img{
+    width: 9.99em;
+    height: 8em;
+}
+.book2{
+    border: 1px solid;
+    width: 10em;
+    height: 14em;
+}
+.book2 img{
+    width: 9.99em;
+    height: 8em;
+    object-fit: cover
+}
+.book3{
+    border: 1px solid;
+    width: 10em;
+    height: 14em;
+    text-align: center;
+    border-radius: 0em 10px 10px 0em;
+}
+.book3 img{
+    width: 9.99em;
+    height: 8em;
+    object-fit: cover;
+}
+
+#pris{
+    text-align: start;
+}
+
+#beskriv{
+    font-size: 0.8em;
+    text-align: start;
+}
+
+#bestill{
+    display: flex;
+    justify-content: center;
+}
+
+#bestillForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

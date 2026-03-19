@@ -19,6 +19,52 @@
             <li><a href="#Galleri">Galleri</a></li>
         </ul>
     </header>
+<main>  
+    <h1 id="workshopLogo">Workshop Alternativer</h1> 
+    <div class="bookCont">
+        <div class="book1">
+            <p>Mosaikk</p>
+            <img src="./images/mosaik.avif" alt="Mosaikk kunst">
+            <p id="pris">Pris : 400 kr</p>
+            <p id="beskriv">Bruk små biter av materialer for å lage flotte bilder</p>
+            <button><a Bestill href="#bestillForm">Bestill Nå</a></button>
+        </div>
+        <div class="book2">
+            <p>Akvarell</p>
+            <img src="./images/akvarell.avif" alt="Akvarell Kunst">
+            <p id="pris">Pris : 200 kr</p>
+            <p id="beskriv">Bruk fine vannmalings farger for å male flotte kunstverk</p>
+            <button><a Bestill href="#bestillForm">Bestill Nå</a></button>
+        </div>
+        <div class="book3">
+            <p>Lerret</p>
+            <img src="./images/lerret.avif" alt="Lerret Kunst">
+            <p id="pris">Pris : 300 kr</p>
+            <p id="beskriv">Bruk vanlig maling for å lage fine bilder som du kan henge opp</p>
+            <button><a Bestill href="#bestillForm">Bestill Nå</a></button>
+        </div>
+    </div>
+</main>
+<section>
+    <h1 id="bestill">Bestilling Skjema</h1>
+    <form id="bestillForm">
+        <label for="fNavn">Fullt Navn</label><br>
+        <input type="text" placeholder="Fullt Navn"><br>
+        <label for="tNum">Telefon Nummer</label><br>
+        <input type="text"placeholder="Telefon Nummer"><br>
+        <label for="ePost">Epost</label><br>
+        <input type="text" placeholder="exempel@epost.com"><br>
+        <label for="workValg">Workshop Valg</label><br>
+        <select name="Workshop" id="">
+            <option value="Mosaikk">Mosaikk</option>
+            <option value="">Akvarell</option>
+            <option value="">Lerret</option>
+        </select>
+        <label for="dateValg">Velg Dato</label>
+        <input type="date"><br>
+        <button>Send in Bestilling</button>
+    </form>
+</section>
     
 </body>
 </html>
