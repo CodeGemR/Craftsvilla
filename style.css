@@ -205,3 +205,49 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+.tilbakeMeldForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tilbVis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5em;
+}
+.tilb1{
+    border: 3px solid;
+    border-radius: 1em;
+    width: 20em;
+}
+.tilb2{
+    border: 3px solid;
+    border-radius: 1em; 
+    width: 20em;
+}
+.tilb3{
+    border: 3px solid;
+    border-radius: 1em;
+    width: 20em;
+}
+
+#oldpfp{
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+#mompfp{
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+#manpfp{
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
