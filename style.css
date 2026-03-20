@@ -13,6 +13,7 @@
 
 body{
     font-family:"caveat";
+    
 }
 
 .Navbar{
@@ -250,4 +251,55 @@ body{
     width: 2em;
     height: 2em;
     border-radius: 100%;
+}
+
+.logoCont{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.gallImgWrap{
+    display: grid;
+    border: 1px solid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1em;
+    column-gap: 1em;
+    place-items: center;
+}
+
+#Gall1{
+    width: 20em;
+    height: 20em;
+    flex: 1 1 (20em);
+}
+#Gall2{
+    width: 20em;
+    height: 20em;
+    flex: 1 1 (20em);
+}
+#Gall3{
+    width: 20em;
+    height: 20em;
+    flex: 1 1 (20em);
+}
+#Gall4{
+    width: 20em;
+    height: 20em;
+    flex: 1 1 (20em);
+}
+#Gall5{
+    width: 20em;
+    height: 20em;
+    flex: 1 1 (20em);
+}
+#Gall6{
+    width: 20em;
+    height: 20em;
+    flex: 1 1 (20em);
+}
+
+.pageFoot{
+    display: flex;
+    border: 1px solid;
 }
