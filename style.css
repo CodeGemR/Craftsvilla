@@ -115,18 +115,21 @@ body{
     height: 10em;
     background-size: cover;
     align-content: flex-end;
+    min-width: 0;
 }
 #akvarell{
     background-image: url(./images/akvarell.avif);
     height: 10em;
     background-size: cover;
     align-content: flex-end;
+    min-width: 0;
 }
 #Lerret{
     background-image: url(./images/lerret.avif);
     height: 10em;
     background-size: cover;
     align-content: flex-end;
+    min-width: 0;
 }
 
 .tilbakeMeldCont{
@@ -298,7 +301,14 @@ body{
     flex: 1 1 (20em);
 }
 
-.pageFoot{
+.footCont{
     display: flex;
-    border: 1px solid;
+    justify-content: space-between;
+}
+
+#socialList{
+    list-style-image: url(  );
+    width: 2px;
+    height: 2px;
+
 }
